@@ -31,7 +31,7 @@
                             class="nav-link fw-bold" (click)="isMenuCollapsed = true">Log in</a>
                     </li>
                     <li class="nav-item">
-                        <a routerLink="/sign-up" ariaCurrentWhenActive="page" *ngIf="!isMenuCollapsed" class="nav-link fw-bold" href="#" role="button">Start for free</a>
+                        <a routerLink="/sign-up" ariaCurrentWhenActive="page" *ngIf="!isMenuCollapsed" class="nav-link fw-bold" href="#" role="button" (click)="isMenuCollapsed = true">Start for free</a>
                         <button routerLink="/sign-up" ariaCurrentWhenActive="page" *ngIf="isMenuCollapsed" class="btn btn-primary" type="button">Start for free</button>
                     </li>
                 </ul>
