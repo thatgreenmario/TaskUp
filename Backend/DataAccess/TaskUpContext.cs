@@ -1,4 +1,4 @@
-﻿using Backend.Models;
+﻿using Backend.DataAccess.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Repository
